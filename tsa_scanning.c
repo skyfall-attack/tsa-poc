@@ -5,7 +5,7 @@
  * - Executes in Ring-0, pinned to Core 0.
  * - Uses direct CR3/PML5 manipulation to forge virtual-to-physical mappings.
  * - Cache-Line Split amplification via LODSQ.
- * - Brute-forces all available PMCs (0x00-0xFF Events/Umasks).
+ * - Brute-forces all available PMCs (0x00-0x1FF Events/Umasks).
  * - A-B-B-A Swapped execution order to prevent pipeline warm-up bias.
  * - Min-Floor evaluation.
  */
